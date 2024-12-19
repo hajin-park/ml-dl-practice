@@ -1,4 +1,4 @@
-# Data Science Self-Study Path
+a semi-structured guide to pursuing data science after hours of googling
 
 ## Programming Fundamentals
 
@@ -30,9 +30,9 @@
 
 ### The Elements of Statistical Learning - 2nd Edition
 
-### Introduction to Statistical Learning with R - 1st Edition
+### An Introduction to Statistical Learning with R - 1st Edition
 
-### Introduction to Statistical Learning with Python - 1st Edition
+### An Introduction to Statistical Learning with Python - 1st Edition
 
 ---
 
@@ -48,7 +48,7 @@
 
 ## Advanced Modeling (Frameworks, Deep Learning, Systems)
 
-### Machine Learning with PyTorch and Scikit-learn - 1st Edition
+### Machine Learning with PyTorch and Scikit-Learn - 1st Edition
 
 ### Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - 3rd Edition
 
@@ -65,6 +65,21 @@
 [TODO] - i have not explored data engineering/warehousing/analysis very much yet
 
 ---
+
+## Public Datasets
+
+ - [The Open Science Framework](https://osf.io/)
+ - [DATA.NASA.GOV](https://data.nasa.gov/)
+ - [U.S. Government's Open Data](https://data.gov/)
+ - [Office for National Statistics](https://www.ons.gov.uk/)
+ - [Papers With Code](https://paperswithcode.com/datasets)
+ - [Hugging Face](https://huggingface.co/datasets)
+ - [Kaggle](https://www.kaggle.com/datasets)
+ - [GitHub awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
+ - [Databar](https://databar.ai/)
+ - [Reddit r/statistics](https://www.reddit.com/r/statistics/)
+ - [Google Dataset Search](https://datasetsearch.research.google.com/)
+ - google, web scraping, your brain
 
 ## Running code
 
