@@ -123,3 +123,21 @@ a semi-structured guide to pursuing data science after hours of googling
     python check_cuda.py
     python check_cpu.py
     ```
+
+---
+course textbooks:
+- K. Korb and A. Nicholson, Bayesian Artificial Intelligence. (UCSD CSE 150a)
+- S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach. (UCSD CSE 150a) (UCSD CSE 150b) (UCM CSE176)
+- R. Sutton and A. Barto, Reinforcement Learning: An Introduction. (UCSD CSE 150a)
+- The Elements of Statistical Learning by Trevor Hastie, ‎Robert Tibshirani, and Jerome Friedman. (UCSD CSE 151a)
+- Data Mining: Concepts and Techniques by Jiawei Han et al. (UCSD CSE 151a)
+- Pattern Recognition and Machine Learning by Christopher M. Bishop. (UCSD CSE 151a)
+- Dive into Deep Learning book by Aston Zhang et al. (UCSD CSE 151a)
+- [Deep Learning](https://www.deeplearningbook.org/) (UCSD CSE 151b)
+- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) (UCSD CSE 151b)
+- [Learning From Data](https://work.caltech.edu/telecourse) (UCSD CSE 151b)
+- G. James, D. Witten, T. Hastie and R. Tibshirani: An Introduction to Statistical Learning, with Applications in R, 2nd ed. Springer, 2021 (UCM CSE176)
+- R. O. Duda, P. E. Hart and D. G. Stork: Pattern Classification, 2nd ed. Wiley, 2001. (UCM CSE176)
+- P. A. Flach: Machine Learning. The Art and Science of Algorithms That Make Sense of Data. Cambridge University Press, 2012 (UCM CSE176)
+- S. Marsland: Machine Learning: An Algorithmic Perspective, 2nd ed. Chapman and Hall/CRC Press, 2014 (UCM CSE176)
+- T. M. Mitchell: Machine Learning. McGraw-Hill, 1997 (UCM CSE176)
