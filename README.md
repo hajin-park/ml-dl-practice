@@ -10,8 +10,6 @@ a semi-structured guide to pursuing data science after hours of googling
 
 -   ### T-SQL Fundamentals - 4th Edition
 
----
-
 ## 2. Math Fundamentals
 
 -   ### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
@@ -21,8 +19,6 @@ a semi-structured guide to pursuing data science after hours of googling
 -   ### A First Course in Probability - 10th Edition
 
 -   ### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
-
----
 
 ## 3. Modeling
 
@@ -34,8 +30,6 @@ a semi-structured guide to pursuing data science after hours of googling
 
 -   ### An Introduction to Statistical Learning with Python - 2nd Edition
 
----
-
 ## 4. Data Engineering
 
 1. ### Python for Data Analysis - 3rd Edition
@@ -43,8 +37,6 @@ a semi-structured guide to pursuing data science after hours of googling
 2. ### Python Data Science Handbook - 2nd Edition
 
 -   ### SQL for Data Scientists - 1st Edition
-
----
 
 ## 5. Advanced Modeling (Frameworks, Deep Learning, Systems)
 
@@ -76,13 +68,9 @@ a semi-structured guide to pursuing data science after hours of googling
 -   [NeetCode](https://neetcode.io/)
 -   [Kaggle](https://www.kaggle.com/competitions)
 
----
-
 ## Online Courses/Certificates
 
 -   [TODO]
-
----
 
 ## Public Datasets
 
@@ -100,8 +88,6 @@ a semi-structured guide to pursuing data science after hours of googling
 -   [Databar](https://databar.ai/)
 -   [Reddit r/statistics](https://www.reddit.com/r/statistics/)
 -   [Google Dataset Search](https://datasetsearch.research.google.com/)
-
----
 
 ## Running code
 
