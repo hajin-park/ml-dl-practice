@@ -1,4 +1,4 @@
-a semi-structured guide to pursuing data science after hours of googling
+a semi-structured guide to pursuing data science formed after hours of googling
 
 ---
 
