@@ -74,6 +74,7 @@ a semi-structured guide to pursuing data science after hours of googling
 -   [stratascratch](https://www.stratascratch.com/)
 -   [Deep-ML](https://www.deep-ml.com/)
 -   [NeetCode](https://neetcode.io/)
+-   [Kaggle](https://www.kaggle.com/competitions)
 
 ---
 
