@@ -2,65 +2,65 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ## Programming Fundamentals
 
-### R for Data Science - 2nd Edition
+- ### R for Data Science - 2nd Edition
 
-### MATLAB Programming Fundamentals - R2023a
+- ### MATLAB Programming Fundamentals - R2023a
 
-### Fluent Python - 2nd Edition
+- ### Fluent Python - 2nd Edition
 
-### T-SQL Fundamentals - 4th Edition
+- ### T-SQL Fundamentals - 4th Edition
 
 ---
 
 ## Math Fundamentals
 
-### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
+- ### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
 
-### OpenIntro Statistics - 4th Edition
+- ### OpenIntro Statistics - 4th Edition
 
-### A First Course in Probability - 10th Edition
+- ### A First Course in Probability - 10th Edition
 
-### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
+- ### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
 
 ---
 
 ## Modeling
 
-### Applied Predictive Modeling - 1st Edition
+1. ### Applied Predictive Modeling - 1st Edition
 
-### The Elements of Statistical Learning - 2nd Edition
+2. ### The Elements of Statistical Learning - 2nd Edition
 
-### An Introduction to Statistical Learning with R - 2nd Edition
+- ### An Introduction to Statistical Learning with R - 2nd Edition
 
-### An Introduction to Statistical Learning with Python - 2nd Edition
+-  ### An Introduction to Statistical Learning with Python - 2nd Edition
 
 ---
 
 ## Data Engineering
 
-### Python for Data Analysis - 3rd Edition
+1. ### Python for Data Analysis - 3rd Edition
 
-### Python Data Science Handbook - 2nd Edition
+2. ### Python Data Science Handbook - 2nd Edition
 
-### SQL for Data Scientists - 1st Edition
+- ### SQL for Data Scientists - 1st Edition
 
 ---
 
 ## Advanced Modeling (Frameworks, Deep Learning, Systems)
 
-### Machine Learning with PyTorch and Scikit-Learn - 1st Edition
+- ### Machine Learning with PyTorch and Scikit-Learn - 1st Edition
 
-### Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - 3rd Edition
+- ### Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - 3rd Edition
 
-### Designing Machine Learning Systems - 1st Edition
+- ### Designing Machine Learning Systems - 1st Edition
 
-### Dive Into Deep Learning
+- ### Dive Into Deep Learning
 
 ## Advanced Data Engineering (Platforms, Systems)
 
-### Designing Data-Intensive Applications - 1st Edition
+- ### Designing Data-Intensive Applications - 1st Edition
 
-### [Apache Spark](https://spark.apache.org/)
+- ### [Apache Spark](https://spark.apache.org/)
 
 [TODO] - i have not explored data engineering/warehousing/analysis very much yet
 
