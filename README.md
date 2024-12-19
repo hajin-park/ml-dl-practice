@@ -1,5 +1,36 @@
 a semi-structured guide to pursuing data science after hours of googling
 
+---
+
+## Running code
+
+1. Install
+   [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+   or [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/).
+2. Create the environment: _With GPU (Windows):_
+    ```
+    conda env create -f environment.yml
+    ```
+    _With CPU (Windows):_
+    ```
+    conda env create -f environment_cpu.yml
+    ```
+3. Make sure you can activate the environment:
+    ```
+    conda activate [pytorch/tensorflow]-practice-[gpu/cpu]
+    ```
+4. cd into the relevant directory
+    ```
+    cd [pytorch/tensorflow]-practice
+    ```
+5. And run the tests:
+    ```
+    python check_cuda.py
+    python check_cpu.py
+    ```
+   
+---
+
 ## 1. Programming Fundamentals
 
 -   ### R for Data Science - 2nd Edition
@@ -88,33 +119,6 @@ a semi-structured guide to pursuing data science after hours of googling
 -   [Databar](https://databar.ai/)
 -   [Reddit r/statistics](https://www.reddit.com/r/statistics/)
 -   [Google Dataset Search](https://datasetsearch.research.google.com/)
-
-## Running code
-
-1. Install
-   [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
-   or [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/).
-2. Create the environment: _With GPU (Windows):_
-    ```
-    conda env create -f environment.yml
-    ```
-    _With CPU (Windows):_
-    ```
-    conda env create -f environment_cpu.yml
-    ```
-3. Make sure you can activate the environment:
-    ```
-    conda activate [pytorch/tensorflow]-practice-[gpu/cpu]
-    ```
-4. cd into the relevant directory
-    ```
-    cd [pytorch/tensorflow]-practice
-    ```
-5. And run the tests:
-    ```
-    python check_cuda.py
-    python check_cpu.py
-    ```
 
 ---
 
