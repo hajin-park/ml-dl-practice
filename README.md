@@ -30,9 +30,9 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ### The Elements of Statistical Learning - 2nd Edition
 
-### An Introduction to Statistical Learning with R - 1st Edition
+### An Introduction to Statistical Learning with R - 2nd Edition
 
-### An Introduction to Statistical Learning with Python - 1st Edition
+### An Introduction to Statistical Learning with Python - 2nd Edition
 
 ---
 
