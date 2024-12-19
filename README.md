@@ -101,7 +101,9 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ## Online Courses/Certificates
 
--   [TODO]
+- [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
+- [Machine Learning Specialization - Andrew Ng](https://www.coursera.org/specializations/machine-learning-introduction)
+- [Deep Learning Specialization - Andrew Ng](https://www.coursera.org/specializations/deep-learning)
 
 ## Public Datasets
 
