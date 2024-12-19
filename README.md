@@ -1,6 +1,6 @@
 a semi-structured guide to pursuing data science after hours of googling
 
-1. ## Programming Fundamentals
+## 1. Programming Fundamentals
 
 - ### R for Data Science - 2nd Edition
 
@@ -12,7 +12,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-2. ## Math Fundamentals
+## 2. Math Fundamentals
 
 - ### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
 
@@ -24,7 +24,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-3. ## Modeling
+## 3. Modeling
 
 1. ### Applied Predictive Modeling - 1st Edition
 
@@ -36,7 +36,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-4. ## Data Engineering
+## 4. Data Engineering
 
 1. ### Python for Data Analysis - 3rd Edition
 
@@ -46,7 +46,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-5. ## Advanced Modeling (Frameworks, Deep Learning, Systems)
+## 5. Advanced Modeling (Frameworks, Deep Learning, Systems)
 
 - ### Machine Learning with PyTorch and Scikit-Learn - 1st Edition
 
