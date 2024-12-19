@@ -1,6 +1,6 @@
 a semi-structured guide to pursuing data science after hours of googling
 
-## Programming Fundamentals
+1. ## Programming Fundamentals
 
 - ### R for Data Science - 2nd Edition
 
@@ -12,7 +12,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-## Math Fundamentals
+2. ## Math Fundamentals
 
 - ### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
 
@@ -24,7 +24,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-## Modeling
+3. ## Modeling
 
 1. ### Applied Predictive Modeling - 1st Edition
 
@@ -36,7 +36,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-## Data Engineering
+4. ## Data Engineering
 
 1. ### Python for Data Analysis - 3rd Edition
 
@@ -46,7 +46,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 ---
 
-## Advanced Modeling (Frameworks, Deep Learning, Systems)
+5. ## Advanced Modeling (Frameworks, Deep Learning, Systems)
 
 - ### Machine Learning with PyTorch and Scikit-Learn - 1st Edition
 
@@ -62,24 +62,38 @@ a semi-structured guide to pursuing data science after hours of googling
 
 - ### [Apache Spark](https://spark.apache.org/)
 
-[TODO] - i have not explored data engineering/warehousing/analysis very much yet
+- [TODO] have not explored data engineering/warehousing/analysis very much yet
+
+---
+## Interview Practice
+
+- [DataLemur](https://datalemur.com/)
+- [stratascratch](https://www.stratascratch.com/)
+- [Deep-ML](https://www.deep-ml.com/)
+- [NeetCode](https://neetcode.io/)
 
 ---
 
+## Online Courses/Certificates
+
+- [TODO]
+
+---
+  
 ## Public Datasets
 
- - [The Open Science Framework](https://osf.io/)
- - [DATA.NASA.GOV](https://data.nasa.gov/)
- - [U.S. Government's Open Data](https://data.gov/)
- - [Office for National Statistics](https://www.ons.gov.uk/)
- - [Papers With Code](https://paperswithcode.com/datasets)
- - [Hugging Face](https://huggingface.co/datasets)
- - [Kaggle](https://www.kaggle.com/datasets)
- - [GitHub awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
- - [Databar](https://databar.ai/)
- - [Reddit r/statistics](https://www.reddit.com/r/statistics/)
- - [Google Dataset Search](https://datasetsearch.research.google.com/)
- - google, web scraping, your brain
+- [The Open Science Framework](https://osf.io/)
+- [DATA.NASA.GOV](https://data.nasa.gov/)
+- [U.S. Government's Open Data](https://data.gov/)
+- [Office for National Statistics](https://www.ons.gov.uk/)
+- [Papers With Code](https://paperswithcode.com/datasets)
+- [Hugging Face](https://huggingface.co/datasets)
+- [Kaggle](https://www.kaggle.com/datasets)
+- [GitHub awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
+- [Databar](https://databar.ai/)
+- [Reddit r/statistics](https://www.reddit.com/r/statistics/)
+- [Google Dataset Search](https://datasetsearch.research.google.com/)
+- google, web scraping, your brain
 
 ## Running code
 
