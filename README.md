@@ -51,6 +51,8 @@ a semi-structured guide to pursuing data science after hours of googling
 
 -   ### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
 
+-   Differential Calculus, Linear Algebra
+
 ## 3. Modeling
 
 1. ### Applied Predictive Modeling - 1st Edition
