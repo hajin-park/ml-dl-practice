@@ -81,7 +81,9 @@ a semi-structured guide to pursuing data science after hours of googling
 ---
   
 ## Public Datasets
-
+- [Registry of Open Data on AWS](https://registry.opendata.aws/)
+- [OpenML](https://www.openml.org/search?type=data&sort=runs&status=active)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 - [The Open Science Framework](https://osf.io/)
 - [DATA.NASA.GOV](https://data.nasa.gov/)
 - [U.S. Government's Open Data](https://data.gov/)
@@ -93,7 +95,6 @@ a semi-structured guide to pursuing data science after hours of googling
 - [Databar](https://databar.ai/)
 - [Reddit r/statistics](https://www.reddit.com/r/statistics/)
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
-- google, web scraping, your brain
 
 ---
 
@@ -125,7 +126,7 @@ a semi-structured guide to pursuing data science after hours of googling
     ```
 
 ---
-course textbooks:
+Course Texts:
 - K. Korb and A. Nicholson, Bayesian Artificial Intelligence. (UCSD CSE 150a)
 - S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach. (UCSD CSE 150a) (UCSD CSE 150b) (UCM CSE176)
 - R. Sutton and A. Barto, Reinforcement Learning: An Introduction. (UCSD CSE 150a)
