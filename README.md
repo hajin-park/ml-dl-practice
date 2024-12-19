@@ -56,7 +56,7 @@ a semi-structured guide to pursuing data science after hours of googling
 
 - ### Dive Into Deep Learning
 
-## Advanced Data Engineering (Platforms, Systems)
+## 6. Advanced Data Engineering (Platforms, Systems)
 
 - ### Designing Data-Intensive Applications - 1st Edition
 
