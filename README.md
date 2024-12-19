@@ -1,20 +1,72 @@
-# Machine Learning / Deep Learning Practice
+# Data Science Self-Study Path
 
-## Dive Into Deep Learning
+## Programming Fundamentals
 
-###### 1st Edition - December 2023
+### R for Data Science - 2nd Edition
 
-## Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
+### MATLAB Programming Fundamentals - R2023a
 
-###### 3rd Edition - October 2022
+### Fluent Python - 2nd Edition
 
-## Machine Learning with Pytorch and Scikit-Learn
-
-###### 1st Edition - February 2022
+### T-SQL Fundamentals - 4th Edition
 
 ---
 
-## Development
+## Math Fundamentals
+
+### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
+
+### OpenIntro Statistics - 4th Edition
+
+### A First Course in Probability - 10th Edition
+
+### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
+
+---
+
+## Modeling
+
+### Applied Predictive Modeling - 1st Edition
+
+### The Elements of Statistical Learning - 2nd Edition
+
+### Introduction to Statistical Learning with R - 1st Edition
+
+### Introduction to Statistical Learning with Python - 1st Edition
+
+---
+
+## Data Engineering
+
+### Python for Data Analysis - 3rd Edition
+
+### Python Data Science Handbook - 2nd Edition
+
+### SQL for Data Scientists - 1st Edition
+
+---
+
+## Advanced Modeling (Frameworks, Deep Learning, Systems)
+
+### Machine Learning with PyTorch and Scikit-learn - 1st Edition
+
+### Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - 3rd Edition
+
+### Designing Machine Learning Systems - 1st Edition
+
+### Dive Into Deep Learning
+
+## Advanced Data Engineering (Platforms, Systems)
+
+### Designing Data-Intensive Applications - 1st Edition
+
+### [Apache Spark](https://spark.apache.org/)
+
+[TODO] - i have not explored data engineering/warehousing/analysis very much yet
+
+---
+
+## Running code
 
 1. Install
    [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
