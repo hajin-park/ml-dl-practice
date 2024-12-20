@@ -89,6 +89,12 @@ a semi-structured guide to pursuing data science formed after hours of googling
 
 -   ### [Apache Spark](https://spark.apache.org/)
 
+-   ### [Apache Hadoop](https://hadoop.apache.org/)
+
+-   ### [Apache Flink](https://flink.apache.org/)
+
+-   Cloud tool (AWS, GCP, Azure, etc...)
+
 -   [TODO] have not explored data engineering/warehousing/analysis very much yet
 
 ---
