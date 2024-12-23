@@ -1,0 +1,677 @@
+---
+title: "Chapter 1 Exercises"
+author: Hajin Park
+date: "December 22, 2024"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1.1 Let `x <- c(1,2,3)` and `y <- c(6,5,4)`. Predict what will happen when the following pieces of code are run. Check your answer.
+
+##### (a) `x * 2`
+
+Answer: **[2, 4, 6]**
+
+Solution:
+```{r 1.1a Answer}
+x <- c(1,2,3)
+x * 2
+```
+
+##### (b) `x * y`
+
+Answer: **[6, 10, 12]**
+
+Solution:
+```{r 1.1b Answer}
+x <- c(1,2,3)
+y <- c(6,5,4)
+x * y
+```
+
+##### (c) `x[1] * y[2]`
+
+Answer: **5**
+
+Solution:
+```{r 1.1c Answer}
+x <- c(1,2,3)
+y <- c(6,5,4)
+x[1] * y[2]
+```
+
+### 1.2 Let `x <- c(1,2,3)` and `y <- c(6,5,4)`. What is the value of x after each of the following commands? (Assume that each part starts with the values of x and y given above.)
+
+##### (a) `x + x`
+
+Answer: **2, 4, 6**
+
+Solution:
+```{r 1.2a Answer}
+x <- c(1,2,3)
+x + x
+```
+
+##### (b) `x <- x + x`
+
+Answer: **x = [2, 4, 6]**
+
+Solution:
+```{r 1.2b Answer}
+x <- c(1,2,3)
+x <- x + x
+x
+```
+
+##### (c) `y <- x + x`
+
+Answer: **2, 4, 6**
+
+Solution:
+```{r 1.2c Answer}
+x <- c(1,2,3)
+y <- c(6,5,4)
+y <- x + x
+y
+```
+
+##### (d) `x <- x + 1`
+
+Answer: **2, 3, 4**
+
+Solution:
+```{r 1.2d Answer}
+x <- c(1,2,3)
+x <- x + 1
+x
+```
+
+### 1.3 Determine the values of the vector `vec` after each of the following commands is run.
+
+##### (a) `vec <- 1:10`
+
+Answer: **1, 2, 3, 4, 5, 6, 7, 8, 9, 10**
+
+Solution:
+```{r 1.3a Answer}
+vec <- 1:10
+vec
+```
+
+##### (b) `vec <- 1:10 * 2`
+
+Answer: **2, 4, 6, 8, 10, 12, 14, 16, 18, 20**
+
+Solution:
+```{r 1.3b Answer}
+vec <- 1:10 * 2
+vec
+```
+
+##### (c) `vec <- 1:10^2`
+
+Answer: **1, 4, 9, 16, 25, 36, 49, 64, 81, 100**
+
+Solution:
+```{r 1.3c Answer}
+vec <- 1:10^2
+vec
+```
+
+##### (d) `vec <- 1:10 + 1`
+
+Answer: **2, 3, 4, 5, 6, 7, 8, 9, 10, 11**
+
+Solution:
+```{r 1.3d Answer}
+vec <- 1:10 + 1
+vec
+```
+
+##### (e) `vec <- 1:(10 * 2)`
+
+Answer: **1, 2, ..., 20**
+
+Solution:
+```{r 1.3e Answer}
+vec <- 1:(10 * 2)
+vec
+```
+
+##### (f) `vec <- rep(c(1,1,2), times = 2)`
+
+Answer: **1, 1, 2, 1, 1, 2**
+
+Solution:
+```{r 1.3f Answer}
+vec <- rep(c(1,1,2), times = 2)
+vec
+```
+
+##### (g) `vec <- seq(from = 0, to = 10, length.out = 5)`
+
+Answer: **1, 2, 3, 4, 5**
+
+Solution:
+```{r 1.3g Answer}
+vec <- seq(from = 0, to = 10, length.out = 5)
+vec
+```
+
+### 1.4 In this exercise, you will graph the function $f(p) = p(1 - p)$ for $p \in [0, 1]$.
+
+##### (a) Use `seq` to create a vector `p` of numbers from $0$ to $1$ spaced by $0.2$.
+
+Solution:
+```{r 1.4a Solution}
+p <- seq(from = 0, to = 1, length.out = 6)
+p
+```
+
+##### (b) Use `plot` to plot `p` in the `x` coordinate and $p(1-p)$ in the `y` coordinate. Read the help page for `plot` and experiment with the `type` argument to find a good choice for this graph.
+
+Solution:
+```{r 1.4b Solution}
+p <- seq(from = 0, to = 1, length.out = 6)
+y <- p * (1 - p)
+plot(p, y)
+```
+
+##### (c) Repeat, but with creating a vector `p` of numbers from $0$ to $1$ spaced by $0.01$.
+
+Solution:
+```{r 1.4c Solution}
+p <- seq(from = 0, to = 1, length.out = 11)
+y <- p * (1 - p)
+plot(p, y)
+```
+
+### 1.5 Use R to calculate the sum of the squares of all numbers from $1$ to $100$: $1^2 + 2^2 + \dots + 99^2 + 100^2$
+
+Solution:
+```{r 1.5 Solution}
+x <- 1:100
+sum(x * x)
+```
+
+### 1.6 Let `x` be the vector obtained by running the R command `x <- seq(from = 10, to = 30, by = 2)`.
+
+##### (a) What is the length of `x`? (By length, we mean the number of elements in the vector. This can be obtained using the `str` function or the `length` function.)
+
+Answer: **11**
+
+Solution:
+```{r 1.6a Solution}
+x <- seq(from = 10, to = 30, by = 2)
+length(x)
+```
+
+##### (b) What is `x[2]`?
+
+Answer: **12**
+
+Solution:
+```{r 1.6b Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[2]
+```
+
+##### (c) What is `x[1:5]`?
+
+Answer: **10, 12, 14, 16, 18**
+
+Solution:
+```{r 1.6c Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[1:5]
+```
+
+##### (d) What is `x[1:3*2]`?
+
+Answer: **10, 12, 14, 16, 18, 20**
+
+Solution:
+```{r 1.6d Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[1:3*2]
+```
+
+##### (e) What is `x[1:(3*2)]`?
+
+Answer: **10, 12, 14, 16, 18, 20**
+
+Solution:
+```{r 1.6e Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[1:(3*2)]
+```
+
+##### (f) What is `x > 25`?
+
+Answer: **FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE**
+
+Solution:
+```{r 1.6f Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x > 25
+```
+
+##### (g) What is `x[x > 25]`?
+
+Answer: **26, 28, 30**
+
+Solution:
+```{r 1.6g Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[x > 25]
+```
+
+##### (h) What is `x[-1]`?
+
+Answer: **12, 14, 16, 18, 20, 22, 24, 26, 28, 30**
+
+Solution:
+```{r 1.6h Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[-1]
+```
+
+##### (i) What is `x[-1:-3]`?
+
+Answer: **16, 18, 20, 22, 24, 26, 28, 30**
+
+Solution:
+```{r 1.6i Solution}
+x <- seq(from = 10, to = 30, by = 2)
+x[-1:-3]
+```
+
+### 1.7 R has a built-in vector `rivers` which contains the lengths of major North American rivers.
+
+##### (a) Use `?rivers` to learn about the data set.
+
+Solution:
+```{r 1.7a Solution, eval = FALSE}
+?rivers
+```
+
+##### (b) Find the mean and standard deviation of the rivers data using the base R functions `mean` and `sd`.
+
+Solution:
+```{r 1.7b Solution}
+x <- rivers
+mean(x)
+sd(x)
+```
+
+##### (c) Make a histogram `hist` of the rivers data.
+
+Solution:
+```{r 1.7c Solution}
+x <- rivers
+hist(x, plot = TRUE)
+```
+
+##### (d) Get the five number summary (`summary`) of rivers data.
+
+Solution:
+```{r 1.7d Solution}
+summary(rivers)
+```
+
+##### (e) Find the longest and shortest lengths of rivers in the set.
+
+Solution:
+```{r 1.7e Solution}
+max(rivers)
+min(rivers)
+```
+
+##### (f) Make a list of all (lengths of) rivers longer than 1000 miles.
+
+Solution:
+```{r 1.7f Solution}
+x <- rivers[rivers > 1000]
+x
+```
+
+### 1.8 Consider the built-in data frame `airquality`.
+
+##### (a) How many observations of how many variables are there?
+
+Answer: **153 observations, 6 variables**
+
+Solution:
+```{r 1.8a Solution}
+str(airquality)
+```
+
+##### (b) What are the names of the variables?
+
+Answer: **Ozone, Solar.R, Wind, Temp, Month, Day**
+
+### 1.8 Consider the built-in data frame `airquality`.
+
+##### (c) What type of data is each variable?
+
+Answer: **Ozone: int, Solar.R: int, Wind: num, Temp: int, Month: int, Day: int**
+
+##### (d) Do you agree with the data type that has been given to each variable? What would have been some alternative choices?
+
+Answer: **Ozone, Solar.R, and Temp all could be represented by nums. Specificity is lost using int. The int type are understandable representations of the Month and Day variables since they represent whole days and whole months.**
+
+### 1.9 There is a built-in data set `state`, which is really seven separate variables with names such as `state.name`, `state.region`, and `state.area`.
+
+##### (a) What are the possible regions a state can be in? How many states are in each region?
+
+Answer: **Northeast: 9, South: 16, North Central: 12, West: 13**
+
+Solution:
+```{r 1.9a Solution}
+table(state.region)
+```
+
+##### (b) Which states have area less than 10,000 square miles?
+
+Answer: **"Connecticut", "Delaware", "Hawaii", "Massachusetts", "New Hampshire", "New Jersey", "Rhode Island", "Vermont"**
+
+Solution:
+```{r 1.9b Solution}
+state.name[which(state.area < 10000)]
+```
+
+##### (c) Which state’s geographic center is furthest south? (Hint: use `which.min`)
+
+Answer: **Alaska**
+
+Solution:
+```{r 1.9c Solution}
+df <- data.frame(state.center, row.names = state.name)
+df[which.min(df$x),]
+```
+
+### 1.10 Consider the `mtcars` data set.
+
+##### (a) Which cars have 4 forward gears?
+
+Answer: **Mazda RX4, Mazda RX4 Wag, Datsun 710, Merc 240D, Merc 230, Merc 280, Merc 280C, Fiat 128, Honda Civic, Toyota Corolla, Fiat X1-9, Volvo 142E**
+
+Solution:
+```{r 1.10a Solution}
+mtcars[mtcars$gear == 4,]
+```
+
+##### (b) What subset of `mtcars` does `mtcars[mtcars$disp > 150 & mtcars$mpg > 20,]` describe?
+
+Answer: **Cars whose displacement is greater than 150 and miles per gallon is greater than 20.**
+
+Solution:
+```{r 1.10b Solution}
+mtcars[mtcars$disp > 150 & mtcars$mpg > 20,]
+```
+
+##### (c) Which cars have $4$ forward gears and manual transmission? (Note: manual transmission is $1$ and automatic is $0$.)
+
+Answer: **Mazda RX4, Mazda RX4 Wag, Datsun 710, Fiat 128, Honda Civic, Toyota Corolla, Fiat X1-9, Volvo 142E**
+
+Solution:
+```{r 1.10c Solution}
+mtcars[mtcars$gear == 4 & mtcars$am == 1,]
+```
+
+##### (d) Which cars have 4 forward gears or manual transmission?
+
+Answer: **"Mazda RX4"      "Mazda RX4 Wag"  "Datsun 710"     "Merc 240D"      "Merc 230"       "Merc 280" "Merc 280C"      "Fiat 128"       "Honda Civic"    "Toyota Corolla" "Fiat X1-9"      "Porsche 914-2" "Lotus Europa"   "Ford Pantera L" "Ferrari Dino"   "Maserati Bora"  "Volvo 142E"**
+
+Solution:
+```{r 1.10d Solution}
+rownames(mtcars)[which(mtcars$gear == 4 | mtcars$am == 1,)]
+```
+
+##### (e) Find the mean mpg of the cars with 2 carburetors.
+
+Answer: **22.4**
+
+Solution:
+```{r 1.10e Solution}
+mean(mtcars$mpg[which(mtcars$carb == 2)])
+```
+
+### 1.11 Consider the `mtcars` data set.
+
+##### (a) Convert the `am` variable to a factor with two levels, `auto` and `manual`, by typing the following: `mtcars$am <- factor(mtcars$am, levels = c(0, 1), labels = c("auto", "manual"))`.
+
+Solution:
+```{r 1.11a Solution}
+mtcars$am <- factor(mtcars$am, levels = c(0, 1), labels = c("auto", "manual"))
+```
+
+##### (b) How many cars of each type of transmission are there?
+
+Answer: **auto: 19, manual: 13**
+
+Solution:
+```{r 1.11b Solution}
+mtcars$am <- factor(mtcars$am, levels = c(0, 1), labels = c("auto", "manual"))
+table(mtcars$am)
+```
+
+##### (c) How many cars of each type of transmission have gas mileage estimates greater than 25 mpg?
+
+Answer: **auto: 0, manual: 6**
+
+Solution:
+```{r 1.11c Solution}
+table(mtcars$am[which(mtcars$mpg > 25)])
+```
+
+### 1.12 This problem uses the data set `hot_dogs from the package `fosdata`.
+
+##### (a) How many observations of how many variables are there? What types are the variables?
+
+Answer: **type(Beef): 20, type(Meat): 17, type(Poultry): 17, calories:54, sodium: 54**
+
+Solution:
+```{r 1.12a Solution}
+library(fosdata)
+str(hot_dogs)
+table(hot_dogs$type)
+```
+
+##### (b) What are the three kinds of hot dogs in this data set?
+
+Answer: **type(Beef): 20, type(Meat): 17, type(Poultry)**
+
+Solution:
+```{r 1.12b Solution}
+library(fosdata)
+table(hot_dogs$type)
+```
+
+##### (c) What is the highest sodium content of any hot dog in this data set?
+
+Answer: **645**
+
+Solution:
+```{r 1.12c Solution}
+max(hot_dogs$sodium)
+```
+
+##### (d) What is the mean calorie content for Beef hot dogs?
+
+Answer: **156.85**
+
+Solution:
+```{r 1.12d Solution}
+mean(hot_dogs$calories[which(hot_dogs$type == "Beef")])
+```
+
+### 1.13 This problem uses the data set `DrinksWages` from the package `HistData`.
+
+##### (a) How many observations of how many variables are there? What types are the variables?
+
+Answer: **70 observations; class, trade, sober, drinks, wage, n**
+
+Solution:
+```{r 1.13a Solution}
+library(HistData)
+str(DrinksWages)
+```
+
+##### (b) The variable `wage` contains the average wage for each profession. Which profession has the lowest wage?
+
+Answer: **factory worker**
+
+Solution:
+```{r 1.13b Solution}
+library(HistData)
+DrinksWages$trade[which.min(DrinksWages$wage)]
+```
+
+##### (c) The variable `n` contains the number of workers surveyed for each profession. Sum this to find the total number of workers surveyed.
+
+Answer: **604**
+
+Solution:
+```{r 1.13c Solution}
+library(HistData)
+sum(DrinksWages$n)
+```
+
+##### (d) Compute the mean wage for all workers surveyed by multiplying {\tt wage * n} for each profession, summing, and dividing by the total number of workers surveyed.
+
+Answer: **24.59782**
+
+Solution:
+```{r 1.13d Solution}
+library(HistData)
+total_workers <- sum(DrinksWages$n)
+total_wages <- sum(DrinksWages$wage * DrinksWages$n)
+mean_wage <- total_wages / total_workers
+mean_wage
+```
+
+### 1.14 This problem uses the package `Lahman`, which needs to be installed on your computer. The data set `Batting`, in the `Lahman` package contains batting statistics of all major league baseball players since 1871, broken down by season.
+
+##### (a) How many observations of how many variables are there?
+
+Answer: **113,799 observations of 22 variables**
+
+Solution:
+```{r 1.14a Solution}
+library("Lahman")
+str(Batting)
+```
+
+##### (b) Use the command `head(Batting)` to get a look at the first six lines of data.
+
+Solution:
+```{r 1.14b Solution}
+install.packages("Lahman")
+library("Lahman")
+head(Batting)
+```
+
+##### (c) What is the most number of triples (`X3B`) that have been hit in a single season?
+
+Answer: **36**
+
+Solution:
+```{r 1.14c Solution}
+install.packages("Lahman")
+library("Lahman")
+max(Batting$X3B)
+```
+
+##### (d) What is the playerID(s) of the person(s) who hit the most number of triples in a single season? In what year did it happen?
+
+Answer: **"wilsoch01", 1912**
+
+Solution:
+```{r 1.14d Solution}
+install.packages("Lahman")
+library("Lahman")
+Batting$playerID[which.max(Batting$X3B)]
+Batting$yearID[which.max(Batting$X3B)]
+```
+
+##### (e) Which player hit the most number of triples in a single season since 1960?
+
+Answer: **"delanro01"**
+
+Solution:
+```{r 1.14e Solution}
+install.packages("Lahman")
+library("Lahman")
+Batting$playerID[which.max(Batting$X3B[Batting$yearID >= 1960])]
+```
+
+### 1.15 Consider the `bechdel` data set in the `fosdata` package.
+
+##### (a) How many movies in the data set pass the Bechdel test?
+
+Answer: **803**
+
+Solution:
+```{r 1.15a Solution}
+library("fosdata")
+sum(bechdel$binary == "PASS")
+```
+
+##### (b) What percentage of movies in the data set pass the Bechdel test?
+
+Answer: **0.4476031**
+
+Solution:
+```{r 1.15b Solution}
+library("fosdata")
+sum(bechdel$binary == "PASS") / nrow(bechdel)
+```
+
+##### (c) Create a table of number of movies in the data set by year.
+
+Answer:
+**
+1970 1971 1972 1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991 
+   1    5    3    5    7    5    8    7    8    5   14    9   14    5   16   10   10   14   19   14   15   13 
+1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 
+  20   16   26   36   42   51   62   56   63   64   80   64   81  100   90   73  101  124  129  124   86   99
+**
+
+Solution:
+```{r 1.15c Solution}
+library("fosdata")
+table(bechdel$year)
+```
+
+##### (d) Which year has the most movies in the data set?
+
+Answer: **2010 with 129 movies**
+
+Solution:
+```{r 1.15d Solution}
+library("fosdata")
+table(bechdel$year)[which.max(table(bechdel$year))]
+```
+
+##### (e) How many different values are there in the `clean_test` variable?
+
+Answer: **5 levels; "dubious", "men", "notalk", "nowomen", "ok"**
+
+Solution:
+```{r 1.15e Solution}
+library("fosdata")
+str(bechdel$clean_test)
+levels(bechdel$clean_test)
+```
+
+##### (f) Create a data frame that contains only those observations that pass the Bechdel test.
+
+Solution:
+```{r 1.15f Solution}
+library("fosdata")
+pass_bechdel <- bechdel[which(bechdel$binary == "PASS"),]
+```
