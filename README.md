@@ -43,33 +43,37 @@ a semi-structured guide to pursuing data science formed after hours of googling
 
 ## 2. Math Fundamentals
 
+-   ### A First Course in Probability - 10th Edition
+
+-   ### Introduction to Probability - 1st Edition
+
 -   ### An Introduction to Mathematical Statistics and Its Applications - 6th Edition
+
+-   ### Mathematical Statistics with Applications - 7th Edition
 
 -   ### OpenIntro Statistics - 4th Edition
 
--   ### A First Course in Probability - 10th Edition
-
 -   ### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
 
--   Differential Calculus, Linear Algebra
+-   Differential Calculus, Linear Algebra, ODEs/PDEs
 
 ## 3. Modeling
 
-1. ### Applied Predictive Modeling - 1st Edition
+- ### Applied Predictive Modeling - 1st Edition
 
-2. ### The Elements of Statistical Learning - 2nd Edition
+- ### The Elements of Statistical Learning - 2nd Edition
 
--   ### An Introduction to Statistical Learning with R - 2nd Edition
+- ### An Introduction to Statistical Learning with R - 2nd Edition
 
--   ### An Introduction to Statistical Learning with Python - 2nd Edition
+- ### An Introduction to Statistical Learning with Python - 2nd Edition
 
 ## 4. Data Engineering
 
-1. ### Python for Data Analysis - 3rd Edition
+- ### Python for Data Analysis - 3rd Edition
 
-2. ### Python Data Science Handbook - 2nd Edition
+- ### Python Data Science Handbook - 2nd Edition
 
--   ### SQL for Data Scientists - 1st Edition
+- ### SQL for Data Scientists - 1st Edition
 
 ## 5. Advanced Modeling (Frameworks, Deep Learning, Systems)
 
@@ -81,7 +85,7 @@ a semi-structured guide to pursuing data science formed after hours of googling
 
 -   ### Dive Into Deep Learning - 1st Edition
 
--   ### Artificial Intelligence A Modern Approach - 4th Edition
+-   ### Artificial Intelligence: A Modern Approach - 4th Edition
 
 ## 6. Advanced Data Engineering (Platforms, Systems)
 
@@ -95,7 +99,19 @@ a semi-structured guide to pursuing data science formed after hours of googling
 
 -   Cloud tool (AWS, GCP, Azure, etc...)
 
--   [TODO] have not explored data engineering/warehousing/analysis very much yet
+-   [TODO] data engineering/warehousing
+
+## 7. Advanced Math
+
+- ### Statistical Rethinking - 2nd Edition
+
+- ### Statistical Inference - 2nd Edition
+
+- ### Probability: Theory and Examples - 5th Edition
+
+- ### An Introduction to Stochastic Modeling - 4th Edition
+
+- ### Bayesian Data Analysis - 3rd Edition
 
 ---
 
@@ -106,6 +122,7 @@ a semi-structured guide to pursuing data science formed after hours of googling
 -   [Deep-ML](https://www.deep-ml.com/)
 -   [NeetCode](https://neetcode.io/)
 -   [Kaggle](https://www.kaggle.com/competitions)
+-   [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
 
 ## Online Courses/Certificates
 
