@@ -9,19 +9,19 @@ a semi-structured guide to pursuing data science formed after hours of googling
    or [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/).
 2. Create the environment: _With GPU (Windows):_
     ```
-    conda env create -f environment.yml
+    conda env create -f environment.yml [TODO]
     ```
     _With CPU (Windows):_
     ```
-    conda env create -f environment_cpu.yml
+    conda env create -f environment_cpu.yml [TODO]
     ```
 3. Make sure you can activate the environment:
     ```
-    conda activate [pytorch/tensorflow]-practice-[gpu/cpu]
+    conda activate [pytorch/tensorflow]-[gpu/cpu]
     ```
 4. cd into the relevant directory
     ```
-    cd [pytorch/tensorflow]-practice
+    cd [category]/[book]
     ```
 5. And run the tests:
     ```
