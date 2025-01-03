@@ -55,7 +55,7 @@ a semi-structured guide to pursuing data science formed after hours of googling
 
 -   ### Probability, Statistics, and Data: A Fresh Approach Using R - 1st Edition
 
--   Differential Calculus, Linear Algebra, ODEs/PDEs
+-   Calculus, Linear Algebra, ODEs/PDEs
 
 ## 3. Modeling
 
